@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#myphoto img{
+  width:250px;
+  height:300px;
+  border-radius:50%;
+  box-shadow: 10px 10px 10px darkgray;
+  margin-top:20px;
+  
+}
+
+#myprofile{
+  color:black;
+  font-size:20px;
+}
+
+.textcenter{
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+#schoolpic img{
+  width:900px;
+  height:450px;
+}
+#edutext{
+  color:black;
+  font-size:20px
+}
+
+.textcenter{
+  text-align:center;
+}
+
+.sectionheading{
+  font-size:35px;
+  color: maroon;
+}
+
+h2:hover{
+  color:darkblue;
+}
+
+.col-2{
+  width:45%;
+  float:left;
+  margin:20px;
+  padding:10px;
+}
+
+#favouritesport img{
+  width:500px;
+  height:500px;
+}
+
+#favsporttext{
+  font-size:20px;
+}
+
+
+#favouritebook img{
+  width:500px;
+  height:500px;
+}
+
+section::after{
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.col-3{
+  float: left;
+  width:31.5%;
+  margin:10px;
+}
+
+.portfolio-img img{
+  width:380px;
+  height:300px;
+}
+
+.portfolio-img{
+  background-size: cover;
+  background-repeat:no-repeat;
+  position: relative:
+  margin: 10px;
+}
+
+.portfolio-display{
+  margin-bottom:30px;
+  padding:0 50px;
+}
+
+.portfolio-img:hover{
+  box-shadow: 10px 5px  8px lightgreen;
+  opacity: 0.5;
+  color: white;
+}
+
+#headerdesign{
+  background-image: url(html\ bg\ image.jpg);
+  background-size:cover;
+  background-position:center;
+  height:400px;
+  opacity: 0.8;
+  padding-top: 15px;
+}
+#headernav ul{
+    word-spacing: 20px;
+}
+
+#headernav li{
+    display: inline-block;
+}
+#headernav li a{
+    text-decoration: none;
+    color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+#namecontainer{
+    font-size:80px;
+    margin-top: 150px;
+    color:white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+    
+  
+   
+}
+
+#r{
+  text-align: left;
+  color: black;
+  font-size: 20px;
+}
+h3{
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
